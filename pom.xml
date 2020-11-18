@@ -14,7 +14,7 @@
             <url> http://smartbearsoftware.com/repository/maven2 </url>
         </pluginRepository>
     </pluginRepositories>
-
+ <!--https://www.avioconsulting.com/blog/running-soapui-tests-maven-->
 <build>
     <plugins>
         <plugin>
