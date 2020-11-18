@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="e022e726-410a-43fb-9520-a54737f14bbf" activeEnvironment="Default" name="REST Project 1" soapui-version="5.6.0" abortOnError="false" runType="SEQUENTIAL" resourceRoot="" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="false"/>
+  <con:entry key="Export All" value="true"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="Cards"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="false"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="true"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="User_have_0_cards"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value="/Applications/SoapUI-5.6.0.app/Contents/Resources"/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting></con:settings><con:interface xsi:type="con:RestService" id="58f73f48-b844-4e82-8798-cf54657db050" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://nginx.wbpay.svc.k8s.dldevel" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>https://nginx.wbpay.svc.k8s.dldevel</con:endpoint></con:endpoints><con:resource name="Show_cards" path="/api/v1/get_cards/merchant/{merchant}/user/{user}/expires_at/{expires_at}/signature/{signature}" id="1f120009-3cb9-491f-b7b1-3ec873816fa2"><con:settings/><con:parameters><con:parameter required="false"><con:name>user</con:name><con:value>43</con:value><con:style>TEMPLATE</con:style><con:default>43</con:default><con:description xsi:nil="true"/></con:parameter><con:parameter required="false"><con:name>expires_at</con:name><con:value>1605186426</con:value><con:style>TEMPLATE</con:style><con:type xmlns:xs="http://www.w3.org/2001/XMLSchema">xs:long</con:type><con:default>1605186426</con:default><con:description xsi:nil="true"/></con:parameter><con:parameter required="false"><con:name>signature</con:name><con:value/><con:style>TEMPLATE</con:style><con:default/><con:description xsi:nil="true"/></con:parameter><con:parameter disableUrlEncoding="false"><con:name>merchant</con:name><con:value>1</con:value><con:style>TEMPLATE</con:style><con:default>1</con:default><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="1" id="1bf716cc-dee7-4f4b-ae20-b2f569f7ae74" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:a8e3="https://nginx.wbpay.svc.k8s.dldevel/api/v1/get_cards/merchant/1/user/43/expires_at/1605186426/signature/a8e37232acadc78c4f4ecb9d533c22d338ef593ae5b206487f4a6500892b02e51c28304871ce91246173cd101ff7de56ebcdddd46bcd3f1ffa5f2507f244a447">a8e3:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>403 400</con:status><con:params/><con:element xmlns:a8e3="https://nginx.wbpay.svc.k8s.dldevel/api/v1/get_cards/merchant/1/user/43/expires_at/1605186426/signature/a8e37232acadc78c4f4ecb9d533c22d338ef593ae5b206487f4a6500892b02e51c28304871ce91246173cd101ff7de56ebcdddd46bcd3f1ffa5f2507f244a447">a8e3:Fault</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html</con:mediaType><con:status>502</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Get_all_cards" id="73edcd21-d0b0-411a-8307-51a68f5d90e0" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://nginx.wbpay.svc.k8s.dldevel</con:endpoint><con:request/><con:originalUri>https://nginx.wbpay.svc.k8s.dldevel/api/v1/get_cards/merchant/1/user/43/expires_at/1605186426/signature/a8e37232acadc78c4f4ecb9d533c22d338ef593ae5b206487f4a6500892b02e51c28304871ce91246173cd101ff7de56ebcdddd46bcd3f1ffa5f2507f244a447</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="expires_at" value="1605273534"/>
+  <con:entry key="signature" value="121d86c9395bdbf91462fb5a1fb2317f0087bd54dd9c69aeb55250338111eaced2ff14599db440725111a27af9c1384968d8bc6f946c6f78690d0f79944b8bc6"/>
+  <con:entry key="user" value="44"/>
+</con:parameters><con:parameterOrder><con:entry>merchant</con:entry><con:entry>user</con:entry><con:entry>expires_at</con:entry><con:entry>signature</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="Link_card" path="/link_card/merchant/{merchant}/user/{user}/sum/{sum}/currency/{currency}/transaction/{transaction}/use_3ds/{use_3ds}/success_url/{success_url}/fail_url/{fail_url}/expires_at/{expires_at}/signature/{signature}" id="3d80e64b-5b18-446f-9ffa-28c2c213a78e"><con:settings/><con:parameters><con:parameter><con:name>merchant</con:name><con:value>merchant</con:value><con:style>TEMPLATE</con:style><con:default>merchant</con:default></con:parameter><con:parameter><con:name>user</con:name><con:value>user</con:value><con:style>TEMPLATE</con:style><con:default>user</con:default></con:parameter><con:parameter><con:name>sum</con:name><con:value>sum</con:value><con:style>TEMPLATE</con:style><con:default>sum</con:default></con:parameter><con:parameter><con:name>currency</con:name><con:value>currency</con:value><con:style>TEMPLATE</con:style><con:default>currency</con:default></con:parameter><con:parameter disableUrlEncoding="false"><con:name>transaction</con:name><con:value>transaction</con:value><con:style>TEMPLATE</con:style><con:default>transaction</con:default></con:parameter><con:parameter required="false"><con:name>use_3ds</con:name><con:value>use_3ds</con:value><con:style>TEMPLATE</con:style><con:type xmlns:xs="http://www.w3.org/2001/XMLSchema">xs:string</con:type><con:default>use_3ds</con:default></con:parameter><con:parameter disableUrlEncoding="true"><con:name>success_url</con:name><con:value>success_url</con:value><con:style>TEMPLATE</con:style><con:default>success_url</con:default></con:parameter><con:parameter disableUrlEncoding="true"><con:name>fail_url</con:name><con:value>fail_url</con:value><con:style>TEMPLATE</con:style><con:default>fail_url</con:default></con:parameter><con:parameter><con:name>expires_at</con:name><con:value>expires_at</con:value><con:style>TEMPLATE</con:style><con:default>expires_at</con:default></con:parameter><con:parameter disableUrlEncoding="true"><con:name>signature</con:name><con:value>signature</con:value><con:style>TEMPLATE</con:style><con:default>signature</con:default></con:parameter></con:parameters><con:method name="2" id="3e08964f-769d-4dad-8d56-943c6e35d42a" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>403</con:status><con:params/><con:element xmlns:d74="https://nginx.wbpay.svc.k8s.dldevel/link_card/merchant/1/user/44/sum/100/currency/643/transaction/7cd14246-be41-47c5-8324-0df0dcc68a38/use_3ds/false/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw%3D%3D/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE%3D/expires_at/1605269947/signature/d74e56a2e05f9b320689a615a76b21f61880b55ee22d922b00d32ef59db3d03968dbe604ecc0178cfc69fd8dd0a727a0810505739446d581782ef02412df965b">d74:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>text/html; charset=utf-8</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:request name="Linking_card" id="77851ee1-2dcf-4909-8739-1de23ec491dd" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://nginx.wbpay.svc.k8s.dldevel</con:endpoint><con:request/><con:originalUri>https://nginx.wbpay.svc.k8s.dldevel/link_card/merchant/1/user/44/sum/100/currency/643/transaction/7cd14246-be41-47c5-8324-0df0dcc68a38/use_3ds/false/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw%3D%3D/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE%3D/expires_at/1605269947/signature/d74e56a2e05f9b320689a615a76b21f61880b55ee22d922b00d32ef59db3d03968dbe604ecc0178cfc69fd8dd0a727a0810505739446d581782ef02412df965b</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="expires_at" value="1605273771"/>
+  <con:entry key="signature" value="97c27d8d0a856e3525d159af00f4d08da9b85fcce90db13206f058a9976f30e58d15ed69fc71adeda96ff2b01fb66cbe52b1b92225d1ffbb03853106a188eb3a"/>
+  <con:entry key="merchant" value="1"/>
+  <con:entry key="sum" value="100"/>
+  <con:entry key="currency" value="643"/>
+  <con:entry key="use_3ds" value="false"/>
+  <con:entry key="user" value="44"/>
+  <con:entry key="transaction" value="e549d576-3004-47ee-8dda-35a23692d6e8"/>
+  <con:entry key="fail_url" value="aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE="/>
+  <con:entry key="success_url" value="aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw=="/>
+</con:parameters></con:request></con:method></con:resource><con:resource name="Verification refund" path="/api/v1/refund_status/merchant/{merchant}/user/{user}/internal_refund_id/{internal_refund_id}/expires_at/{expires_at}/signature/{signature}" id="797bebdc-60ae-4425-b75c-6ffcf2846dae"><con:settings/><con:parameters><con:parameter><con:name>merchant</con:name><con:value>merchant</con:value><con:style>TEMPLATE</con:style><con:default>merchant</con:default></con:parameter><con:parameter><con:name>user</con:name><con:value>user</con:value><con:style>TEMPLATE</con:style><con:default>user</con:default></con:parameter><con:parameter><con:name>internal_refund_id</con:name><con:value>internal_refund_id</con:value><con:style>TEMPLATE</con:style><con:default>internal_refund_id</con:default></con:parameter><con:parameter><con:name>expires_at</con:name><con:value>expires_at</con:value><con:style>TEMPLATE</con:style><con:default>expires_at</con:default></con:parameter><con:parameter><con:name>signature</con:name><con:value>signature</con:value><con:style>TEMPLATE</con:style><con:default>signature</con:default></con:parameter></con:parameters><con:method name="3" id="06dfbbcc-edfd-4859-bf91-da1b015861a4" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>404 403</con:status><con:params/><con:element xmlns:ecf="https://nginx.wbpay.svc.k8s.dldevel/api/v1/refund_status/merchant/1/user/44/internal_refund_id/695/expires_at/1605272206/signature/ecfeff87a449adb550771e4aa33cb64918886bee3dc7e6b27d888d6a39198cbec7e9db30f82ea8f253af2b8c6efc72cd8b7c146b2f45a2a29a63a5d4981e2ac8">ecf:Fault</con:element></con:representation><con:request name="Err_6" id="446eb87a-16e7-466f-9b2e-2dc407cff496" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://nginx.wbpay.svc.k8s.dldevel</con:endpoint><con:request/><con:originalUri>https://nginx.wbpay.svc.k8s.dldevel/api/v1/refund_status/merchant/1/user/44/internal_refund_id/695/expires_at/1605272206/signature/ecfeff87a449adb550771e4aa33cb64918886bee3dc7e6b27d888d6a39198cbec7e9db30f82ea8f253af2b8c6efc72cd8b7c146b2f45a2a29a63a5d4981e2ac8</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="expires_at" value="1605272206"/>
+  <con:entry key="signature" value="ecfeff87a449adb550771e4aa33cb64918886bee3dc7e6b27d888d6a39198cbec7e9db30f82ea8f253af2b8c6efc72cd8b7c146b2f45a2a29a63a5d4981e2ac8"/>
+  <con:entry key="internal_refund_id" value="695"/>
+  <con:entry key="merchant" value="1"/>
+  <con:entry key="user" value="44"/>
+</con:parameters></con:request></con:method></con:resource><con:resource name="Payment" path="/api/v1/do_payment/merchant/{merchant}/user/{user}/pay/{pay}/token/{token}/ip/{ip}/sum/{sum}/currency/{currency}/order/{order}/transaction/{transaction}/description/{description}/success_url/{success_url}/fail_url/{fail_url}/expires_at/{expires_at}/signature/{signature}" id="bdb16380-92a6-4272-b9ec-b133766cf9ab"><con:settings/><con:parameters><con:parameter><con:name>merchant</con:name><con:value>merchant</con:value><con:style>TEMPLATE</con:style><con:default>merchant</con:default></con:parameter><con:parameter><con:name>user</con:name><con:value>user</con:value><con:style>TEMPLATE</con:style><con:default>user</con:default></con:parameter><con:parameter><con:name>pay</con:name><con:value>pay</con:value><con:style>TEMPLATE</con:style><con:default>pay</con:default></con:parameter><con:parameter><con:name>token</con:name><con:value>token</con:value><con:style>TEMPLATE</con:style><con:default>token</con:default></con:parameter><con:parameter><con:name>ip</con:name><con:value>ip</con:value><con:style>TEMPLATE</con:style><con:default>ip</con:default></con:parameter><con:parameter><con:name>sum</con:name><con:value>sum</con:value><con:style>TEMPLATE</con:style><con:default>sum</con:default></con:parameter><con:parameter><con:name>currency</con:name><con:value>currency</con:value><con:style>TEMPLATE</con:style><con:default>currency</con:default></con:parameter><con:parameter><con:name>order</con:name><con:value>order</con:value><con:style>TEMPLATE</con:style><con:default>order</con:default></con:parameter><con:parameter><con:name>transaction</con:name><con:value>transaction</con:value><con:style>TEMPLATE</con:style><con:default>transaction</con:default></con:parameter><con:parameter><con:name>description</con:name><con:value>description</con:value><con:style>TEMPLATE</con:style><con:default>description</con:default></con:parameter><con:parameter disableUrlEncoding="true"><con:name>success_url</con:name><con:value>success_url</con:value><con:style>TEMPLATE</con:style><con:default>success_url</con:default></con:parameter><con:parameter disableUrlEncoding="true"><con:name>fail_url</con:name><con:value>fail_url</con:value><con:style>TEMPLATE</con:style><con:default>fail_url</con:default></con:parameter><con:parameter><con:name>expires_at</con:name><con:value>expires_at</con:value><con:style>TEMPLATE</con:style><con:default>expires_at</con:default></con:parameter><con:parameter><con:name>signature</con:name><con:value>signature</con:value><con:style>TEMPLATE</con:style><con:default>signature</con:default></con:parameter></con:parameters><con:method name="4" id="027e7f21-9f20-4a16-9852-ccc4afce18d9" method="POST"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>403 400 500</con:status><con:params/><con:element xmlns:c98="https://nginx.wbpay.svc.k8s.dldevel/api/v1/do_payment/merchant/1/user/44/pay/applepay/token/345345356457/ip/127.0.0.1/sum/50000/currency/643/order/36109825/transaction/a0160b43-40b7-4660-9ba5-e4bfa16f7e9a/description/%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4%20%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw%3D%3D/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE%3D/expires_at/1605279520/signature/12c98a4396cad45a16ecefc27819333d9b42dc3947d08ec7d9d16687607d8716f2188026714d03f9f60419088af428f4d772558ec1dbf6039a41ba40816b4fb3">c98:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:c98="https://nginx.wbpay.svc.k8s.dldevel/api/v1/do_payment/merchant/1/user/44/pay/applepay/token/345345356457/ip/127.0.0.1/sum/50000/currency/643/order/36109825/transaction/a0160b43-40b7-4660-9ba5-e4bfa16f7e9a/description/%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4%20%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw%3D%3D/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE%3D/expires_at/1605279520/signature/12c98a4396cad45a16ecefc27819333d9b42dc3947d08ec7d9d16687607d8716f2188026714d03f9f60419088af428f4d772558ec1dbf6039a41ba40816b4fb3">c98:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/html</con:mediaType><con:status>502</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Pay" id="d4f1393e-1de3-4bca-90a5-4e5c009e7b6e" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://nginx.wbpay.svc.k8s.dldevel</con:endpoint><con:request/><con:originalUri>https://nginx.wbpay.svc.k8s.dldevel/api/v1/do_payment/merchant/1/user/44/pay/applepay/token/345345356457/ip/127.0.0.1/sum/50000/currency/643/order/36109825/transaction/a0160b43-40b7-4660-9ba5-e4bfa16f7e9a/description/%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4%20%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw%3D%3D/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE%3D/expires_at/1605279520/signature/12c98a4396cad45a16ecefc27819333d9b42dc3947d08ec7d9d16687607d8716f2188026714d03f9f60419088af428f4d772558ec1dbf6039a41ba40816b4fb3</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="signature" value="12c98a4396cad45a16ecefc27819333d9b42dc3947d08ec7d9d16687607d8716f2188026714d03f9f60419088af428f4d772558ec1dbf6039a41ba40816b4fb3"/>
+  <con:entry key="ip" value="127.0.0.1"/>
+  <con:entry key="merchant" value="1"/>
+  <con:entry key="pay" value="applepay"/>
+  <con:entry key="description" value="%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4%20%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21"/>
+  <con:entry key="sum" value="50000"/>
+  <con:entry key="fail_url" value="aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE="/>
+  <con:entry key="token" value="345345356457"/>
+  <con:entry key="expires_at" value="1605279520"/>
+  <con:entry key="currency" value="643"/>
+  <con:entry key="user" value="44"/>
+  <con:entry key="transaction" value="a0160b43-40b7-4660-9ba5-e4bfa16f7e9a"/>
+  <con:entry key="order" value="36109825"/>
+  <con:entry key="success_url" value="aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw=="/>
+</con:parameters></con:request></con:method></con:resource></con:interface><con:testSuite id="2d8701e1-661a-423a-8d07-e892b3ef3c17" name="Cards"><con:description>TestSuite generated for REST Service [https://nginx.wbpay.svc.k8s.dldevel]</con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="eef88404-2f9c-4da1-b3a8-b8807dca8c69" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="User_have_0_cards" searchProperties="true"><con:description>TestCase generated for REST Resource [] located at [/api/v1/get_cards/merchant/{merchant}/user/{user}/expires_at/{expires_at}/signature/{signature}]</con:description><con:settings/><con:testStep type="groovy" name="Generate_values" id="fb79bb0c-c85e-47a7-9c61-d4359bce90d1"><con:settings/><con:config><script>import groovy.time.*
+import java.time.*
+import javax.crypto.*;
+import java.security.*;
+import org.codehaus.groovy.runtime.*
+
+key = "dfafdkokafsdfsdfsdfadfrfkiwer3rf"
+
+merchant=1
+user=44
+LocalDateTime ldt = LocalDateTime.now().plusHours(2);
+ZonedDateTime zdt = ldt.atZone(ZoneId.of("Europe/Moscow"));
+long millis = zdt.toInstant().toEpochMilli();
+int ts = millis.toString().substring(0, millis.toString().length()-3).toInteger()
+
+query = String.format("/api/v1/get_cards/merchant/%s/user/%s/expires_at/%s", merchant, user, ts)
+log.info(query)
+def hmac_sha512(String data) {
+ try {
+    MessageDigest md = MessageDigest.getInstance("SHA-512")	
+    md.update(data.getBytes("utf-8"))
+    signature = md.digest()
+    return signature.encodeHex().toString();
+   } catch (InvalidKeyException e) {
+    throw new RuntimeException("Invalid key exception while converting to HMac SHA512")
+  }
+}
+
+log.info(ts)
+def propertyStep = testRunner.getTestCase().getTestSuite().getTestCaseByName("User_have_0_cards").getTestStepByName("Get_all_cards")
+propertyStep.setPropertyValue("expires_at", ts.toString())
+
+def hash = hmac_sha512(query + key)
+propertyStep.setPropertyValue("signature", hash.toString())
+log.info(hash)</script></con:config></con:testStep><con:testStep type="restrequest" name="Get_all_cards" id="815007fa-cdbb-4fbd-91dc-257421860435"><con:settings/><con:config service="https://nginx.wbpay.svc.k8s.dldevel" resourcePath="/api/v1/get_cards/merchant/{merchant}/user/{user}/expires_at/{expires_at}/signature/{signature}" methodName="1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Get_all_cards" id="73edcd21-d0b0-411a-8307-51a68f5d90e0" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://nginx.wbpay.svc.k8s.dldevel</con:endpoint><con:request/><con:originalUri>https://nginx.wbpay.svc.k8s.dldevel/api/v1/get_cards/merchant/1/user/43/expires_at/1605186426/signature/a8e37232acadc78c4f4ecb9d533c22d338ef593ae5b206487f4a6500892b02e51c28304871ce91246173cd101ff7de56ebcdddd46bcd3f1ffa5f2507f244a447</con:originalUri><con:assertion type="Simple Contains" id="1a8b14c0-5a1a-48ae-b4b1-98a41f9d2a03" name="Contains"><con:configuration><token>[]</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Valid HTTP Status Codes" id="b19d6f54-3596-4465-8a0c-b652c76a9858" name="Valid HTTP Status Codes"><con:configuration><codes>200
+</codes></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="expires_at" value="1605708180"/>
+  <con:entry key="signature" value="bf12a1562912c351ffc0a02556373be1587b09dec5cae4711e68493a8164886ed6ae478a0c4788e9999cd6a01f88276d099e768694f111e7b3e06feea3f83a83"/>
+  <con:entry key="user" value="44"/>
+</con:parameters><con:parameterOrder><con:entry>merchant</con:entry><con:entry>user</con:entry><con:entry>expires_at</con:entry><con:entry>signature</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="761e227f-111d-44de-97f1-605519c8b482" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Linking_card" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Generate_values" id="59b4d7ba-a0e4-4d60-b613-573eff4ffc22"><con:settings/><con:config><script>import groovy.time.*
+import java.time.*
+import javax.crypto.*;
+import java.security.*;
+import org.codehaus.groovy.runtime.*
+
+key = "dfafdkokafsdfsdfsdfadfrfkiwer3rf"
+
+merchant		= 1
+user			= 44
+sum 			= 100
+currency 		= 643
+use_3ds 		= false.toString()
+transaction	= UUID.randomUUID().toString()
+success_url 	= "https://yandex.ru/?id=123"
+fail_url 		= "https://rambler.ru/?id=321"
+success_url	= success_url.getBytes("utf-8").encodeBase64().toString()
+fail_url 		= fail_url.getBytes("utf-8").encodeBase64().toString()
+
+LocalDateTime ldt = LocalDateTime.now().plusHours(2);
+ZonedDateTime zdt = ldt.atZone(ZoneId.of("Europe/Moscow"));
+long millis = zdt.toInstant().toEpochMilli();
+int ts = millis.toString().substring(0, millis.toString().length()-3).toInteger()
+
+query = String.format("/link_card/merchant/%s/user/%s/sum/%s/currency/%s/transaction/%s/use_3ds/%s/success_url/%s/fail_url/%s/expires_at/%s",
+merchant, user, sum, currency, transaction, use_3ds, success_url, fail_url, ts)
+log.info(query)
+def hmac_sha512(String data) {
+ try {
+    MessageDigest md = MessageDigest.getInstance("SHA-512")	
+    md.update(data.getBytes("utf-8"))
+    signature = md.digest()
+    return signature.encodeHex().toString();
+   } catch (InvalidKeyException e) {
+    throw new RuntimeException("Invalid key exception while converting to HMac SHA512")
+  }
+}
+
+log.info(ts)
+def propertyStep = testRunner.getTestCase().getTestSuite().getTestCaseByName("Linking_card").getTestStepByName("Link")
+propertyStep.setPropertyValue("expires_at", ts.toString())
+
+def hash = hmac_sha512(query + key)
+propertyStep.setPropertyValue("signature", hash.toString())
+log.info(hash)
+
+propertyStep.setPropertyValue("transaction", transaction)
+propertyStep.setPropertyValue("fail_url", fail_url)
+propertyStep.setPropertyValue("success_url", success_url)</script></con:config></con:testStep><con:testStep type="restrequest" name="Link" id="f7c31800-4bb7-4ded-a79f-f75809275fff"><con:settings/><con:config service="https://nginx.wbpay.svc.k8s.dldevel" resourcePath="/link_card/merchant/{merchant}/user/{user}/sum/{sum}/currency/{currency}/transaction/{transaction}/use_3ds/{use_3ds}/success_url/{success_url}/fail_url/{fail_url}/expires_at/{expires_at}/signature/{signature}" methodName="2" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Link" id="77851ee1-2dcf-4909-8739-1de23ec491dd" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting><con:setting id="RecordRequestRepresentations">true</con:setting></con:settings><con:endpoint>https://nginx.wbpay.svc.k8s.dldevel</con:endpoint><con:request/><con:originalUri>https://nginx.wbpay.svc.k8s.dldevel/link_card/merchant/1/user/44/sum/100/currency/643/transaction/7cd14246-be41-47c5-8324-0df0dcc68a38/use_3ds/false/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw%3D%3D/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE%3D/expires_at/1605269947/signature/d74e56a2e05f9b320689a615a76b21f61880b55ee22d922b00d32ef59db3d03968dbe604ecc0178cfc69fd8dd0a727a0810505739446d581782ef02412df965b</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="00829e9b-1564-4afc-a0d3-45c451896cf8" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="Simple Contains" id="b149eb62-2b5f-4a77-8b17-d7034b60e0fb" name="Contains"><con:configuration><token>Привязка карты</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="expires_at" value="1605695631"/>
+  <con:entry key="signature" value="3883f1410b8f996063f2c51d3d17c0527661f1139a9cf3747457f391a4dd62d2a244b0c12a870a2f153d3d2c7a7d334d3c4539e02affeb1dc78bee59e1528bd6"/>
+  <con:entry key="merchant" value="1"/>
+  <con:entry key="sum" value="100"/>
+  <con:entry key="currency" value="643"/>
+  <con:entry key="use_3ds" value="false"/>
+  <con:entry key="user" value="44"/>
+  <con:entry key="transaction" value="f88f63ca-cd1b-4013-99d1-4e39f2e91511"/>
+  <con:entry key="fail_url" value="aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE="/>
+  <con:entry key="success_url" value="aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw=="/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="b5736bfe-3e3c-46a3-bd84-8a19984fc2b4" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Transaction_not_found" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Generate_values" id="32d68630-c42c-49a3-96ef-68a5e6f1c45a"><con:settings/><con:config><script>import groovy.time.*
+import java.time.*
+import javax.crypto.*;
+import java.security.*;
+import org.codehaus.groovy.runtime.*
+
+key = "dfafdkokafsdfsdfsdfadfrfkiwer3rf"
+
+merchant=1
+user=44
+internal_refund_id = 695
+query = ""
+
+LocalDateTime ldt = LocalDateTime.now().plusHours(2);
+ZonedDateTime zdt = ldt.atZone(ZoneId.of("Europe/Moscow"));
+long millis = zdt.toInstant().toEpochMilli();
+int ts = millis.toString().substring(0, millis.toString().length()-3).toInteger()
+
+query = String.format("/api/v1/refund_status/merchant/%s/user/%s/internal_refund_id/%s/expires_at/%s", merchant, user, internal_refund_id,ts)
+
+def hmac_sha512(String data) {
+ try {
+    MessageDigest md = MessageDigest.getInstance("SHA-512")	
+    md.update(data.getBytes("utf-8"))
+    signature = md.digest()
+    return signature.encodeHex().toString();
+   } catch (InvalidKeyException e) {
+    throw new RuntimeException("Invalid key exception while converting to HMac SHA512")
+  }
+}
+
+log.info(ts)
+def propertyStep = testRunner.getTestCase().getTestSuite().getTestCaseByName("Transaction_not_found").getTestStepByName("Error_6")
+propertyStep.setPropertyValue("expires_at", ts.toString())
+
+def hash = hmac_sha512(query + key)
+propertyStep.setPropertyValue("signature", hash.toString())
+log.info(hash)</script></con:config></con:testStep><con:testStep type="restrequest" name="Error_6" id="b4a90490-eb81-4003-8bbf-208cbf6e5dd2"><con:settings/><con:config service="https://nginx.wbpay.svc.k8s.dldevel" resourcePath="/api/v1/refund_status/merchant/{merchant}/user/{user}/internal_refund_id/{internal_refund_id}/expires_at/{expires_at}/signature/{signature}" methodName="3" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Error_6" id="446eb87a-16e7-466f-9b2e-2dc407cff496" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://nginx.wbpay.svc.k8s.dldevel</con:endpoint><con:request/><con:originalUri>https://nginx.wbpay.svc.k8s.dldevel/api/v1/refund_status/merchant/1/user/44/internal_refund_id/695/expires_at/1605272206/signature/ecfeff87a449adb550771e4aa33cb64918886bee3dc7e6b27d888d6a39198cbec7e9db30f82ea8f253af2b8c6efc72cd8b7c146b2f45a2a29a63a5d4981e2ac8</con:originalUri><con:assertion type="Simple Contains" id="75367dc3-acb6-4811-a518-a4ebbfcba4f1" name="Contains"><con:configuration><token>transaction not found</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="expires_at" value="1605527266"/>
+  <con:entry key="signature" value="bc99aefd41af10d95e1fa60ef91102c3d4a597d18819641bda8029113d7d38b1b06bb922127b040f5283e2b86f6337a21aa79b4c522c06bf1d2e9902cb40c7a7"/>
+  <con:entry key="internal_refund_id" value="695"/>
+  <con:entry key="merchant" value="1"/>
+  <con:entry key="user" value="44"/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="6b58bf8c-7c19-47d3-b603-d4ddb6c283f2" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Payment" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Generate_values" id="12e2ee77-7301-4e34-8ee0-b2dfc8741964"><con:settings/><con:config><script>import groovy.time.*
+import java.time.*
+import javax.crypto.*;
+import java.security.*;
+import org.codehaus.groovy.runtime.*
+import java.net.URLEncoder
+
+key = "dfafdkokafsdfsdfsdfadfrfkiwer3rf"
+
+String.metaClass.encodeURL = {
+   java.net.URLEncoder.encode(delegate, "UTF-8")
+}
+
+merchant		= 1
+user			= 7
+pay   		= "applepay"
+token		= 345345356453
+ip			= "127.0.0.1"
+sum 			= 50000
+currency 		= 643
+order		= Math.abs(new Random().nextInt() % 99999999) + 1
+transaction	= UUID.randomUUID().toString()
+description	= "Превед Медвед!".encodeURL().toString()
+success_url 	= "https://yandex.ru/?id=123"
+fail_url 		= "https://rambler.ru/?id=321"
+
+success_url	= success_url.getBytes("utf-8").encodeBase64().toString()
+fail_url 		= fail_url.getBytes("utf-8").encodeBase64().toString()
+
+LocalDateTime ldt = LocalDateTime.now().plusHours(2);
+ZonedDateTime zdt = ldt.atZone(ZoneId.of("Europe/Moscow"));
+long millis = zdt.toInstant().toEpochMilli();
+int ts = millis.toString().substring(0, millis.toString().length()-3).toInteger()
+
+query = String.format("/api/v1/do_payment/merchant/%s/user/%s/pay/%s/token/%s/ip/%s/sum/%s/currency/%s/order/%s/transaction/%s/description/%s/success_url/%s/fail_url/%s/expires_at/%s",
+merchant, user, pay, token, ip, sum, currency, order, transaction, description, success_url, fail_url, ts)
+
+def hmac_sha512(String data) {
+ try {
+    MessageDigest md = MessageDigest.getInstance("SHA-512")	
+    md.update(data.getBytes("utf-8"))
+    signature = md.digest()
+    return signature.encodeHex().toString();
+   } catch (InvalidKeyException e) {
+    throw new RuntimeException("Invalid key exception while converting to HMac SHA512")
+  }
+}
+log.info(query)
+log.info(ts)
+def propertyStep = testRunner.getTestCase().getTestSuite().getTestCaseByName("Payment").getTestStepByName("ApplePay")
+propertyStep.setPropertyValue("expires_at", ts.toString())
+
+def hash = hmac_sha512(query + key)
+propertyStep.setPropertyValue("signature", hash.toString())
+log.info(hash)
+
+propertyStep.setPropertyValue("order", order.toString())
+propertyStep.setPropertyValue("transaction", transaction)
+propertyStep.setPropertyValue("description", description)
+propertyStep.setPropertyValue("fail_url", fail_url)
+propertyStep.setPropertyValue("success_url", success_url)</script></con:config></con:testStep><con:testStep type="restrequest" name="ApplePay" id="7ada848b-64c4-4a48-96c0-e4cf382c19ed"><con:settings/><con:config service="https://nginx.wbpay.svc.k8s.dldevel" resourcePath="/api/v1/do_payment/merchant/{merchant}/user/{user}/pay/{pay}/token/{token}/ip/{ip}/sum/{sum}/currency/{currency}/order/{order}/transaction/{transaction}/description/{description}/success_url/{success_url}/fail_url/{fail_url}/expires_at/{expires_at}/signature/{signature}" methodName="4" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="ApplePay" id="d4f1393e-1de3-4bca-90a5-4e5c009e7b6e" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://nginx.wbpay.svc.k8s.dldevel</con:endpoint><con:request/><con:originalUri>https://nginx.wbpay.svc.k8s.dldevel/api/v1/do_payment/merchant/1/user/44/pay/applepay/token/345345356457/ip/127.0.0.1/sum/50000/currency/643/order/36109825/transaction/a0160b43-40b7-4660-9ba5-e4bfa16f7e9a/description/%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4%20%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw%3D%3D/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE%3D/expires_at/1605279520/signature/12c98a4396cad45a16ecefc27819333d9b42dc3947d08ec7d9d16687607d8716f2188026714d03f9f60419088af428f4d772558ec1dbf6039a41ba40816b4fb3</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="5a0f6039-cb3c-4ce8-b160-3e8827f17773" name="Valid HTTP Status Codes"><con:configuration><codes>200</codes></con:configuration></con:assertion><con:assertion type="Simple NotContains" id="9c86af4a-8d39-49ed-8294-70df4b74920b" name="Not Contains"><con:configuration><token>duplicate transaction id</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:assertion type="Simple NotContains" id="e0aad4cf-4cb6-4c51-9dc9-4ca2701861f6" name="Not Contains 2"><con:configuration><token>invalid signature</token><ignoreCase>false</ignoreCase><useRegEx>false</useRegEx></con:configuration></con:assertion><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters>
+  <con:entry key="signature" value="53e3b1268a163bb46e2522641d8c95755c59f8851cf8a9a04b7559fb9556159dfda460a3e8e07b13bd7de7f0f61ad7170dc5da5141537139f71c88cb09beccbb"/>
+  <con:entry key="ip" value="127.0.0.1"/>
+  <con:entry key="merchant" value="1"/>
+  <con:entry key="pay" value="applepay"/>
+  <con:entry key="description" value="%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4+%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21"/>
+  <con:entry key="sum" value="50000"/>
+  <con:entry key="fail_url" value="aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE="/>
+  <con:entry key="token" value="345345356453"/>
+  <con:entry key="expires_at" value="1605612596"/>
+  <con:entry key="currency" value="643"/>
+  <con:entry key="user" value="7"/>
+  <con:entry key="transaction" value="5cabe930-234e-4721-b700-7fcb05d6d013"/>
+  <con:entry key="order" value="23381111"/>
+  <con:entry key="success_url" value="aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw=="/>
+</con:parameters></con:restRequest></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>

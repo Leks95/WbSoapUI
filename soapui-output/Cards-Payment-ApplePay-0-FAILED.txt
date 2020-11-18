@@ -1,0 +1,53 @@
+Status: FAILED
+Time Taken: 132
+Size: 40
+Timestamp: Wed Nov 18 19:14:14 MSK 2020
+TestStep: ApplePay
+
+----------------- Messages ------------------------------
+[Valid HTTP Status Codes] Response status code:500 is not in acceptable list of status codes
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://nginx.wbpay.svc.k8s.dldevel
+Method: POST
+StatusCode: 500
+URL: https://nginx.wbpay.svc.k8s.dldevel/api/v1/do_payment/merchant/1/user/7/pay/applepay/token/345345356453/ip/127.0.0.1/sum/50000/currency/643/order/941626/transaction/f06e8053-84db-4f57-8188-554091ae16fa/description/%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4+%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw==/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE=/expires_at/1605723254/signature/60c650f241131e74f4b390b8462ca2644c5da3c60505449f337384f78a1c4c150b15b72f11a6d65a45160b2e50b1d2de7abaed9542b9a1b88eaf7a377ea00099
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [nginx.wbpay.svc.k8s.dldevel]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [0]
+Content-Type: [application/json]
+
+POST https://nginx.wbpay.svc.k8s.dldevel/api/v1/do_payment/merchant/1/user/7/pay/applepay/token/345345356453/ip/127.0.0.1/sum/50000/currency/643/order/941626/transaction/f06e8053-84db-4f57-8188-554091ae16fa/description/%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4+%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw==/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE=/expires_at/1605723254/signature/60c650f241131e74f4b390b8462ca2644c5da3c60505449f337384f78a1c4c150b15b72f11a6d65a45160b2e50b1d2de7abaed9542b9a1b88eaf7a377ea00099 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/json
+Content-Length: 0
+Host: nginx.wbpay.svc.k8s.dldevel
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Server: [nginx]
+X-Request-Id: [e7613318-0bcc-4ec0-a121-57e33bf43705]
+Access-Control-Allow-Origin: [*]
+Access-Control-Allow-Methods: [GET,POST,OPTIONS]
+X-Content-Type-Options: [nosniff]
+Connection: [keep-alive]
+Date: [Wed, 18 Nov 2020 16:14:14 GMT]
+Access-Control-Allow-Headers: [Accept,DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Host,X-Request-Id]
+X-Frame-Options: [SAMEORIGIN, ALLOW-FROM wildberries.ru, ALLOW-FROM *.wildberries.ru, ALLOW-FROM wildberries.am, ALLOW-FROM *.wildberries.am, ALLOW-FROM wildberries.kg, ALLOW-FROM *.wildberries.kg, ALLOW-FROM wildberries.by, ALLOW-FROM *.wildberries.by, ALLOW-FROM wildberries.kz, ALLOW-FROM *.wildberries.kz, ALLOW-FROM wildberries.ua, ALLOW-FROM *.wildberries.ua, ALLOW-FROM wildberries.eu, ALLOW-FROM *.wildberries.eu]
+Access-Control-Expose-Headers: [Date,Content-Length,Content-Range,X-Request-Id,Strict-Transport-Security,X-Content-Type-Options,X-Frame-Options,X-XSS-Protection]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains; preload]
+Cache-Control: [no-cache, no-store, must-revalidate]
+Content-Security-Policy: [connect-src *; frame-ancestors wildberries.ru *.wildberries.ru wildberries.am *.wildberries.am wildberries.kg *.wildberries.kg wildberries.by *.wildberries.by wildberries.kz *.wildberries.kz wildberries.ua *.wildberries.ua wildberries.eu *.wildberries.eu]
+#status#: [HTTP/1.1 500 Internal Server Error]
+Content-Length: [40]
+X-XSS-Protection: [1; mode=block]
+Content-Type: [application/json]
+
+{"error_reason":"internal server error"}
