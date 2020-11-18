@@ -22,7 +22,7 @@
             <artifactId>soapui-maven-plugin</artifactId>
             <version>5.2.1</version>
             <configuration>
-                <projectFile>/Users/aleksejmozzeckov/WB-soapUI/REST-Project-1-soapui-project.xml</projectFile>
+                <projectFile>./src/test/resources/REST-Project-1-soapui-project.xml</projectFile>
                 <testSuite>Cards</testSuite>
                 <printReport>true</printReport>
                 <outputFolder>${basedir}/soapui-output</outputFolder>

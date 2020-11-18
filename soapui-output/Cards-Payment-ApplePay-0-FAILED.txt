@@ -1,7 +1,7 @@
 Status: FAILED
-Time Taken: 132
+Time Taken: 1087
 Size: 40
-Timestamp: Wed Nov 18 19:14:14 MSK 2020
+Timestamp: Wed Nov 18 20:19:01 MSK 2020
 TestStep: ApplePay
 
 ----------------- Messages ------------------------------
@@ -12,7 +12,7 @@ HTTP Version: HTTP/1.1
 Endpoint: https://nginx.wbpay.svc.k8s.dldevel
 Method: POST
 StatusCode: 500
-URL: https://nginx.wbpay.svc.k8s.dldevel/api/v1/do_payment/merchant/1/user/7/pay/applepay/token/345345356453/ip/127.0.0.1/sum/50000/currency/643/order/941626/transaction/f06e8053-84db-4f57-8188-554091ae16fa/description/%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4+%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw==/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE=/expires_at/1605723254/signature/60c650f241131e74f4b390b8462ca2644c5da3c60505449f337384f78a1c4c150b15b72f11a6d65a45160b2e50b1d2de7abaed9542b9a1b88eaf7a377ea00099
+URL: https://nginx.wbpay.svc.k8s.dldevel/api/v1/do_payment/merchant/1/user/7/pay/applepay/token/345345356453/ip/127.0.0.1/sum/50000/currency/643/order/2162039/transaction/64e5624e-206b-4423-8e66-62adfb06e19e/description/%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4+%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw==/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE=/expires_at/1605727141/signature/03cdc5a9a8fbb82d4245af31a614f60da6ecf3c189a2b3c648e897390bace9415f00a47f7a0c6e6f1ec763e62f8c539d78f72481625a4481a3b454d13b50c859
 
 ---------------- Request ---------------------------
 Connection: [Keep-Alive]
@@ -22,7 +22,7 @@ Accept-Encoding: [gzip,deflate]
 Content-Length: [0]
 Content-Type: [application/json]
 
-POST https://nginx.wbpay.svc.k8s.dldevel/api/v1/do_payment/merchant/1/user/7/pay/applepay/token/345345356453/ip/127.0.0.1/sum/50000/currency/643/order/941626/transaction/f06e8053-84db-4f57-8188-554091ae16fa/description/%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4+%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw==/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE=/expires_at/1605723254/signature/60c650f241131e74f4b390b8462ca2644c5da3c60505449f337384f78a1c4c150b15b72f11a6d65a45160b2e50b1d2de7abaed9542b9a1b88eaf7a377ea00099 HTTP/1.1
+POST https://nginx.wbpay.svc.k8s.dldevel/api/v1/do_payment/merchant/1/user/7/pay/applepay/token/345345356453/ip/127.0.0.1/sum/50000/currency/643/order/2162039/transaction/64e5624e-206b-4423-8e66-62adfb06e19e/description/%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4+%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw==/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE=/expires_at/1605727141/signature/03cdc5a9a8fbb82d4245af31a614f60da6ecf3c189a2b3c648e897390bace9415f00a47f7a0c6e6f1ec763e62f8c539d78f72481625a4481a3b454d13b50c859 HTTP/1.1
 Accept-Encoding: gzip,deflate
 Content-Type: application/json
 Content-Length: 0
@@ -33,12 +33,12 @@ User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
 
 ---------------- Response --------------------------
 Server: [nginx]
-X-Request-Id: [e7613318-0bcc-4ec0-a121-57e33bf43705]
+X-Request-Id: [b26687ad-770b-436c-9040-eabbb4fed84c]
 Access-Control-Allow-Origin: [*]
 Access-Control-Allow-Methods: [GET,POST,OPTIONS]
 X-Content-Type-Options: [nosniff]
 Connection: [keep-alive]
-Date: [Wed, 18 Nov 2020 16:14:14 GMT]
+Date: [Wed, 18 Nov 2020 17:19:02 GMT]
 Access-Control-Allow-Headers: [Accept,DNT,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Host,X-Request-Id]
 X-Frame-Options: [SAMEORIGIN, ALLOW-FROM wildberries.ru, ALLOW-FROM *.wildberries.ru, ALLOW-FROM wildberries.am, ALLOW-FROM *.wildberries.am, ALLOW-FROM wildberries.kg, ALLOW-FROM *.wildberries.kg, ALLOW-FROM wildberries.by, ALLOW-FROM *.wildberries.by, ALLOW-FROM wildberries.kz, ALLOW-FROM *.wildberries.kz, ALLOW-FROM wildberries.ua, ALLOW-FROM *.wildberries.ua, ALLOW-FROM wildberries.eu, ALLOW-FROM *.wildberries.eu]
 Access-Control-Expose-Headers: [Date,Content-Length,Content-Range,X-Request-Id,Strict-Transport-Security,X-Content-Type-Options,X-Frame-Options,X-XSS-Protection]

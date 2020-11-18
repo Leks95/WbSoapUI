@@ -1,7 +1,7 @@
-2020-11-18 19:14:07,934 WARN  [SoapUI] Missing folder [/Users/aleksejmozzeckov/IdeaProjects/WbSoapUI/ext] for external libraries
-2020-11-18 19:14:08,195 INFO  [DefaultSoapUICore] initialized soapui-settings from [/Users/aleksejmozzeckov/soapui-settings.xml]
-2020-11-18 19:14:08,948 ERROR [SoapUI] An error occurred [The plugin '/Users/aleksejmozzeckov/.soapuios/plugins/ready-uxm-plugin-os-1.0.3.jar' has unsigned class files.], see error log for details
-2020-11-18 19:14:08,949 ERROR [errorlog] java.lang.SecurityException: The plugin '/Users/aleksejmozzeckov/.soapuios/plugins/ready-uxm-plugin-os-1.0.3.jar' has unsigned class files.
+2020-11-18 20:18:56,550 WARN  [SoapUI] Missing folder [/Users/aleksejmozzeckov/IdeaProjects/WbSoapUI/ext] for external libraries
+2020-11-18 20:18:56,703 INFO  [DefaultSoapUICore] initialized soapui-settings from [/Users/aleksejmozzeckov/soapui-settings.xml]
+2020-11-18 20:18:57,096 ERROR [SoapUI] An error occurred [The plugin '/Users/aleksejmozzeckov/.soapuios/plugins/ready-uxm-plugin-os-1.0.3.jar' has unsigned class files.], see error log for details
+2020-11-18 20:18:57,096 ERROR [errorlog] java.lang.SecurityException: The plugin '/Users/aleksejmozzeckov/.soapuios/plugins/ready-uxm-plugin-os-1.0.3.jar' has unsigned class files.
 java.lang.SecurityException: The plugin '/Users/aleksejmozzeckov/.soapuios/plugins/ready-uxm-plugin-os-1.0.3.jar' has unsigned class files.
 	at com.eviware.soapui.plugins.ProductBodyguard$JarVerifier.verify(ProductBodyguard.java:107)
 	at com.eviware.soapui.plugins.ProductBodyguard.isKnown(ProductBodyguard.java:39)
@@ -34,10 +34,10 @@ java.lang.SecurityException: The plugin '/Users/aleksejmozzeckov/.soapuios/plugi
 	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
-2020-11-18 19:14:08,962 WARN  [SoapUI] Plugin 'ready-uxm-plugin-os-1.0.3.jar' is not loaded because it hasn't been signed by SmartBear Software.
-2020-11-18 19:14:09,551 INFO  [PluginManager] Adding plugin from [/Users/aleksejmozzeckov/.soapuios/plugins/readyapi-postman-1.0.1.jar]
-2020-11-18 19:14:09,551 INFO  [PluginManager] Adding plugin from [/Users/aleksejmozzeckov/.soapuios/plugins/soapui-swagger-plugin-2.2-dist.jar]
-2020-11-18 19:14:11,360 WARN  [PluginManager] Could not load plugin from file [/Users/aleksejmozzeckov/.soapuios/plugins/readyapi-postman-1.0.1.jar]
+2020-11-18 20:18:57,104 WARN  [SoapUI] Plugin 'ready-uxm-plugin-os-1.0.3.jar' is not loaded because it hasn't been signed by SmartBear Software.
+2020-11-18 20:18:57,626 INFO  [PluginManager] Adding plugin from [/Users/aleksejmozzeckov/.soapuios/plugins/readyapi-postman-1.0.1.jar]
+2020-11-18 20:18:57,626 INFO  [PluginManager] Adding plugin from [/Users/aleksejmozzeckov/.soapuios/plugins/soapui-swagger-plugin-2.2-dist.jar]
+2020-11-18 20:18:59,054 WARN  [PluginManager] Could not load plugin from file [/Users/aleksejmozzeckov/.soapuios/plugins/readyapi-postman-1.0.1.jar]
 com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.postman.PluginConfig
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:102)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:42)
@@ -62,8 +62,8 @@ Caused by: org.reflections.ReflectionsException: could not get type for name com
 	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:129)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:92)
 	... 13 more
-2020-11-18 19:14:11,361 INFO  [PluginManager] Adding plugin from [/Users/aleksejmozzeckov/.soapuios/plugins/ready-mqtt-plugin-dist.jar]
-2020-11-18 19:14:11,480 WARN  [PluginManager] Could not load plugin from file [/Users/aleksejmozzeckov/.soapuios/plugins/soapui-swagger-plugin-2.2-dist.jar]
+2020-11-18 20:18:59,059 INFO  [PluginManager] Adding plugin from [/Users/aleksejmozzeckov/.soapuios/plugins/ready-mqtt-plugin-dist.jar]
+2020-11-18 20:18:59,306 WARN  [PluginManager] Could not load plugin from file [/Users/aleksejmozzeckov/.soapuios/plugins/soapui-swagger-plugin-2.2-dist.jar]
 com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.swagger.PluginConfig
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:102)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:42)
@@ -87,7 +87,7 @@ Caused by: org.reflections.ReflectionsException: could not get type for name com
 	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:129)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:92)
 	... 12 more
-2020-11-18 19:14:11,799 WARN  [PluginManager] Could not load plugin from file [/Users/aleksejmozzeckov/.soapuios/plugins/ready-mqtt-plugin-dist.jar]
+2020-11-18 20:18:59,669 WARN  [PluginManager] Could not load plugin from file [/Users/aleksejmozzeckov/.soapuios/plugins/ready-mqtt-plugin-dist.jar]
 com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.mqttsupport.PluginConfig
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:102)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:42)
@@ -112,8 +112,8 @@ Caused by: org.reflections.ReflectionsException: could not get type for name com
 	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:129)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:92)
 	... 13 more
-2020-11-18 19:14:11,800 INFO  [PluginManager] Adding plugin from [/Users/aleksejmozzeckov/.soapuios/plugins/readyapi-swaggerhub-plugin-1.0.jar]
-2020-11-18 19:14:12,173 WARN  [PluginManager] Could not load plugin from file [/Users/aleksejmozzeckov/.soapuios/plugins/readyapi-swaggerhub-plugin-1.0.jar]
+2020-11-18 20:18:59,670 INFO  [PluginManager] Adding plugin from [/Users/aleksejmozzeckov/.soapuios/plugins/readyapi-swaggerhub-plugin-1.0.jar]
+2020-11-18 20:19:00,034 WARN  [PluginManager] Could not load plugin from file [/Users/aleksejmozzeckov/.soapuios/plugins/readyapi-swaggerhub-plugin-1.0.jar]
 com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.plugins.swaggerhub.PluginConfig
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:102)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:42)
@@ -138,46 +138,46 @@ Caused by: org.reflections.ReflectionsException: could not get type for name com
 	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:129)
 	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:92)
 	... 13 more
-2020-11-18 19:14:12,173 INFO  [PluginManager] 4 plugins loaded in 2625 ms
-2020-11-18 19:14:12,174 INFO  [DefaultSoapUICore] All plugins loaded
-2020-11-18 19:14:12,836 INFO  [WsdlProject] Loaded project from [file:/Users/aleksejmozzeckov/WB-soapUI/REST-Project-1-soapui-project.xml]
-2020-11-18 19:14:12,842 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
-2020-11-18 19:14:12,843 INFO  [SoapUITestCaseRunner] Running TestSuite [Cards], runType = SEQUENTIAL
-2020-11-18 19:14:12,868 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [User_have_0_cards]
-2020-11-18 19:14:12,874 INFO  [SoapUITestCaseRunner] running step [Generate_values]
-2020-11-18 19:14:13,262 INFO  [log] /api/v1/get_cards/merchant/1/user/44/expires_at/1605723253
-2020-11-18 19:14:13,263 INFO  [log] 1605723253
-2020-11-18 19:14:13,315 INFO  [log] ceda35ae3f2bb29f7b27fac2b84471c36e98720b1c76766cd958fe45ae1a9b3ab9f4cb463aca003dd654371914cfa3ed9c6a86205100fd3d14a75c4fec06e5bb
-2020-11-18 19:14:13,318 INFO  [SoapUITestCaseRunner] running step [Get_all_cards]
-2020-11-18 19:14:13,759 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-2020-11-18 19:14:13,759 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2020-11-18 19:14:13,762 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [User_have_0_cards], time taken: 735ms, status: FINISHED
-2020-11-18 19:14:13,762 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Linking_card]
-2020-11-18 19:14:13,763 INFO  [SoapUITestCaseRunner] running step [Generate_values]
-2020-11-18 19:14:13,806 INFO  [log] /link_card/merchant/1/user/44/sum/100/currency/643/transaction/bc0e6c26-1380-4be1-9a65-133ec8fa05f9/use_3ds/false/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw==/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE=/expires_at/1605723253
-2020-11-18 19:14:13,807 INFO  [log] 1605723253
-2020-11-18 19:14:13,811 INFO  [log] 17638a25b70980ff65a5c54f1adf8ed596bc546d40407b7661c71c8b50b9853f2041e41a887d7246b7ee54eebfe0c5937f3493fe2a15ed3d4718e9f71f819349
-2020-11-18 19:14:13,817 INFO  [SoapUITestCaseRunner] running step [Link]
-2020-11-18 19:14:13,965 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-2020-11-18 19:14:13,965 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-2020-11-18 19:14:13,965 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Linking_card], time taken: 73ms, status: FINISHED
-2020-11-18 19:14:13,966 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Transaction_not_found]
-2020-11-18 19:14:13,966 INFO  [SoapUITestCaseRunner] running step [Generate_values]
-2020-11-18 19:14:13,997 INFO  [log] 1605723253
-2020-11-18 19:14:14,000 INFO  [log] 8b038d9e65c0b9661052b8c8eec583732f226f49b771a8411a2814d2dbbc611bfd2e6f2a394e4ffe39700f90f19d0d5c0ca749d94756ce6ddfb3d6f38fe6eb68
-2020-11-18 19:14:14,000 INFO  [SoapUITestCaseRunner] running step [Error_6]
-2020-11-18 19:14:14,028 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-2020-11-18 19:14:14,029 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Transaction_not_found], time taken: 53ms, status: FINISHED
-2020-11-18 19:14:14,036 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Payment]
-2020-11-18 19:14:14,036 INFO  [SoapUITestCaseRunner] running step [Generate_values]
-2020-11-18 19:14:14,133 INFO  [log] /api/v1/do_payment/merchant/1/user/7/pay/applepay/token/345345356453/ip/127.0.0.1/sum/50000/currency/643/order/941626/transaction/f06e8053-84db-4f57-8188-554091ae16fa/description/%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4+%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw==/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE=/expires_at/1605723254
-2020-11-18 19:14:14,133 INFO  [log] 1605723254
-2020-11-18 19:14:14,137 INFO  [log] 60c650f241131e74f4b390b8462ca2644c5da3c60505449f337384f78a1c4c150b15b72f11a6d65a45160b2e50b1d2de7abaed9542b9a1b88eaf7a377ea00099
-2020-11-18 19:14:14,146 INFO  [SoapUITestCaseRunner] running step [ApplePay]
-2020-11-18 19:14:14,286 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status FAILED
-2020-11-18 19:14:14,286 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Response status code:500 is not in acceptable list of status codes
-2020-11-18 19:14:14,286 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
-2020-11-18 19:14:14,286 INFO  [SoapUITestCaseRunner] Assertion [Not Contains 2] has status VALID
-2020-11-18 19:14:14,287 ERROR [SoapUITestCaseRunner] ApplePay failed, exporting to [/Users/aleksejmozzeckov/IdeaProjects/WbSoapUI/soapui-output/Cards-Payment-ApplePay-0-FAILED.txt]
-2020-11-18 19:14:14,301 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Payment], time taken: 241ms, status: FAILED
-2020-11-18 19:14:14,301 INFO  [SoapUITestCaseRunner] TestSuite [Cards] finished with status [FAILED] in 1455ms
+2020-11-18 20:19:00,035 INFO  [PluginManager] 4 plugins loaded in 2411 ms
+2020-11-18 20:19:00,035 INFO  [DefaultSoapUICore] All plugins loaded
+2020-11-18 20:19:00,602 INFO  [WsdlProject] Loaded project from [file:/Users/aleksejmozzeckov/IdeaProjects/WbSoapUI/./src/test/resources/REST-Project-1-soapui-project.xml]
+2020-11-18 20:19:00,606 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
+2020-11-18 20:19:00,607 INFO  [SoapUITestCaseRunner] Running TestSuite [Cards], runType = SEQUENTIAL
+2020-11-18 20:19:00,612 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [User_have_0_cards]
+2020-11-18 20:19:00,626 INFO  [SoapUITestCaseRunner] running step [Generate_values]
+2020-11-18 20:19:00,927 INFO  [log] /api/v1/get_cards/merchant/1/user/44/expires_at/1605727140
+2020-11-18 20:19:00,927 INFO  [log] 1605727140
+2020-11-18 20:19:00,988 INFO  [log] 2f675719192f704c402eb469bb59fdf8cfbf9a8e87927af0be919d627e8580984627d8c2667fe21e4c4ddb6bd96819811fe9d7dc94114bbb947f3f9a35338fab
+2020-11-18 20:19:00,993 INFO  [SoapUITestCaseRunner] running step [Get_all_cards]
+2020-11-18 20:19:01,421 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-11-18 20:19:01,421 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-11-18 20:19:01,422 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [User_have_0_cards], time taken: 642ms, status: FINISHED
+2020-11-18 20:19:01,424 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Linking_card]
+2020-11-18 20:19:01,424 INFO  [SoapUITestCaseRunner] running step [Generate_values]
+2020-11-18 20:19:01,476 INFO  [log] /link_card/merchant/1/user/44/sum/100/currency/643/transaction/f45a02d6-4e86-4dbd-960f-8abc75bacf2b/use_3ds/false/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw==/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE=/expires_at/1605727141
+2020-11-18 20:19:01,476 INFO  [log] 1605727141
+2020-11-18 20:19:01,481 INFO  [log] 7d6f254ce30b93a628bb81629d56146a7a135ca3df56f0b923d52320aa002567fc27f268c30477023db83ce1b714f85b27b1766556540d2dd8260fea019d1dbb
+2020-11-18 20:19:01,490 INFO  [SoapUITestCaseRunner] running step [Link]
+2020-11-18 20:19:01,631 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-11-18 20:19:01,631 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-11-18 20:19:01,631 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Linking_card], time taken: 91ms, status: FINISHED
+2020-11-18 20:19:01,633 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Transaction_not_found]
+2020-11-18 20:19:01,633 INFO  [SoapUITestCaseRunner] running step [Generate_values]
+2020-11-18 20:19:01,688 INFO  [log] 1605727141
+2020-11-18 20:19:01,693 INFO  [log] d2e2af2dc9dea3a0dbfdcdd4e4d0d10d26e6378d11ed67cb9258ed0316554e0356853be19ef96f93103b2a442b8f7cb588a9a694a5cff57cca35877fb9f86e25
+2020-11-18 20:19:01,693 INFO  [SoapUITestCaseRunner] running step [Error_6]
+2020-11-18 20:19:01,722 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2020-11-18 20:19:01,723 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Transaction_not_found], time taken: 81ms, status: FINISHED
+2020-11-18 20:19:01,723 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Payment]
+2020-11-18 20:19:01,723 INFO  [SoapUITestCaseRunner] running step [Generate_values]
+2020-11-18 20:19:01,840 INFO  [log] /api/v1/do_payment/merchant/1/user/7/pay/applepay/token/345345356453/ip/127.0.0.1/sum/50000/currency/643/order/2162039/transaction/64e5624e-206b-4423-8e66-62adfb06e19e/description/%D0%9F%D1%80%D0%B5%D0%B2%D0%B5%D0%B4+%D0%9C%D0%B5%D0%B4%D0%B2%D0%B5%D0%B4%21/success_url/aHR0cHM6Ly95YW5kZXgucnUvP2lkPTEyMw==/fail_url/aHR0cHM6Ly9yYW1ibGVyLnJ1Lz9pZD0zMjE=/expires_at/1605727141
+2020-11-18 20:19:01,841 INFO  [log] 1605727141
+2020-11-18 20:19:01,845 INFO  [log] 03cdc5a9a8fbb82d4245af31a614f60da6ecf3c189a2b3c648e897390bace9415f00a47f7a0c6e6f1ec763e62f8c539d78f72481625a4481a3b454d13b50c859
+2020-11-18 20:19:01,851 INFO  [SoapUITestCaseRunner] running step [ApplePay]
+2020-11-18 20:19:02,948 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status FAILED
+2020-11-18 20:19:02,949 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Response status code:500 is not in acceptable list of status codes
+2020-11-18 20:19:02,949 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+2020-11-18 20:19:02,949 INFO  [SoapUITestCaseRunner] Assertion [Not Contains 2] has status VALID
+2020-11-18 20:19:02,949 ERROR [SoapUITestCaseRunner] ApplePay failed, exporting to [/Users/aleksejmozzeckov/IdeaProjects/WbSoapUI/soapui-output/Cards-Payment-ApplePay-0-FAILED.txt]
+2020-11-18 20:19:02,969 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Payment], time taken: 1214ms, status: FAILED
+2020-11-18 20:19:02,971 INFO  [SoapUITestCaseRunner] TestSuite [Cards] finished with status [FAILED] in 2361ms
